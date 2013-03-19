@@ -129,6 +129,10 @@ html {
 	$HEADER
 \*-----------------------------------*/
 
+.site-header {
+	background-color: #dbdad5;
+}
+
 .site-header:after {
 	content: '';
 	position: absolute;
