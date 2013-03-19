@@ -119,7 +119,7 @@ html {
 
 @media screen and (max-width: 760px) {
 	html {
-		font-size: 112.5%;
+		font-size: 100%;
 		height: auto;
 		min-height: 100%;
 	}
@@ -312,6 +312,21 @@ html {
 			box-shadow: 0 0 0 3px #efeeed, 0 6px 0 3px #efeeed;
 			z-index: 0;
 		}
+
+	@media screen and (max-width: 680px) {
+		.timeline .left, .timeline .right {
+			float: none;
+			width: auto;
+			margin-left: 0;
+			margin-right: 0;
+		}
+
+		.timeline .left:before, .timeline .left:after,
+		.timeline .right:before, .timeline .right:after,
+		.timeline .span:before, .timeline .span:after {
+			display: none
+		}
+	}
 
 .timeline li p:last-of-type {
 	margin-bottom: 1rem;
