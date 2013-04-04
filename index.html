@@ -95,7 +95,14 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 	<script src="/js/jquery.fittext.js"></script>
 	<script>
-  		jQuery(".site-title").fitText();
+  		$(".site-title").fitText();
+  		$(document).scroll(function(){
+  			s = $(document).scrollTop();
+  			$('.site-header').css('-webkit-transform', 'translateY(' + (s/5) + 'px)');
+  			$('.site-title').css({
+  				'-webkit-transform': 'translateY(-' + (s/10) + 'px)'
+  			});
+  		});
 	</script>
 </body>
 </html>
