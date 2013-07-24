@@ -1,2 +1,2 @@
 # Emily and Dan
-A little something that I (Dan) am making for Emily to celebrate our first year together. If you find this, keep it secret. Keep it safe.
+A little something that I (Dan) made for Emily to celebrate our first year together. Open sourced because, y’know, code and stuff.
